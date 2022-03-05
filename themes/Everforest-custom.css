@@ -75,8 +75,8 @@ body {
     --dim-yellow:    #bf983d;
     --dim-green:     #899c40;   /* Subtitle color */
     --dim-aqua:      #569d9a;   /* Main green color of UI */
-    --dim-blue:      #5a93a270; /* Spacer for tabbed line */
-    --dim-blue1:     #5a93a2;   /* Spacer for tabbed line */
+    --dim-blue:      #5a93a2;   /* Color for links in edit mode */
+    --dim-blue1:     #5a93a270; /* Spacer for tabbed line */
     --dim-purple:    #b87b9d;
 
 
@@ -147,7 +147,7 @@ body {
     --background-modifier-border: var(--bg5-dark);
     --text-accent:                var(--dim-blue);
     --interactive-accent-rgb:     var(--dim-blue);
-    --inline-code:                var(--dim-blue1);
+    --inline-code:                var(--dim-blue);
     --code-block:                 var(--fg-dark);
     --vim-cursor:                 var(--faded-blue);
     --text-selection:             var(--bg2-dark);
@@ -591,7 +591,7 @@ input.task-list-item-checkbox:checked
 .cm-hmd-list-indent .cm-tab, ul ul { position: relative; }
 .cm-hmd-list-indent .cm-tab::before, ul ul::before {
  content:'';
- border-left: 1px solid var(--dim-blue);
+ border-left: 1px solid var(--dim-blue1);
  margin-left: -4px;
  position: absolute;
 }
