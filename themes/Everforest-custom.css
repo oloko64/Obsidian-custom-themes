@@ -43,7 +43,7 @@ body {
 {
     /* 2.1 Dark theme color variables */
     --bg0-dark:       #22282c;
-    --bg1-dark:       #272f34;
+    --bg1-dark:       #242627;  /* Background of code */
     --bg-dark:        #1b1b19;  /* Main background color */
     --bg2-dark:       #374247;
     --bg3-dark:       #404c51;
@@ -76,6 +76,7 @@ body {
     --dim-green:     #899c40;   /* Subtitle color */
     --dim-aqua:      #569d9a;   /* Main green color of UI */
     --dim-blue:      #5a93a270; /* Spacer for tabbed line */
+    --dim-blue1:     #5a93a2;   /* Spacer for tabbed line */
     --dim-purple:    #b87b9d;
 
 
@@ -146,10 +147,10 @@ body {
     --background-modifier-border: var(--bg5-dark);
     --text-accent:                var(--dim-blue);
     --interactive-accent-rgb:     var(--dim-blue);
-    --inline-code:                var(--dim-blue);
+    --inline-code:                var(--dim-blue1);
     --code-block:                 var(--fg-dark);
     --vim-cursor:                 var(--faded-blue);
-    --text-selection:             var(--bg5-dark);
+    --text-selection:             var(--bg2-dark);
 }
 
 /* 2.4 Light theme implementation */
