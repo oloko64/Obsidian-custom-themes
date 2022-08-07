@@ -43,22 +43,22 @@ body {
 {
     /* 2.1 Dark theme color variables */
     --bg0-dark:       #22282c;
-    --bg1-dark:       #242627;  /* Background of code */
-    --bg-dark:        #1b1b19;  /* Main background color */
+    --bg1-dark:       #1d1d1b;  /* Background of code */
+    --bg-dark:        #141413;  /* Main background color */
     --bg2-dark:       #374247;
     --bg3-dark:       #404c51;
     --bg4-dark:       #4a555b;
-    --bg5-dark:       #525c62;
+    --bg5-dark:       #625a52;  /* Separator lines */
     --bg_visual:      #503946;
     --bg_red:         #4e3e43;
-    --bg_green:       #404d44;
+    --bg_green:       #404d44;  /* Background highlighted text */
     --bg_blue:        #394f5a;
     --bg_yellow:      #4a4940;
     --shadow:         #00000070;
 
-    --fg-dark:        #d6d4ce;  /* Main white text */
+    --fg-dark:        #e0ded7;  /* Main white text */
     --grey0-dark:     #7f897d;
-    --grey1-dark:     #859289;
+    --grey1-dark:     #928c85;  /* Left panel and completed text of check marks*/
     --grey2-dark:     #9aa79d;
 
     --faded-red:     #e67e80;   /* Dark orange title */
@@ -590,12 +590,11 @@ input.task-list-item-checkbox:checked
 /* Bullet point relationship lines */
 .cm-hmd-list-indent .cm-tab, ul ul { position: relative; }
 .cm-hmd-list-indent .cm-tab::before, ul ul::before {
- content:'';
- border-left: 1px solid var(--dim-blue1);
- margin-left: -4px;
- position: absolute;
+    content:'';
+    border-left: 1px solid var(--dim-blue1);
+    position: absolute;
 }
 .cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px; 
 }
-ul ul::before { left: -11px; top: 0; bottom: 0; 
+    ul ul::before { left: -11px; top: 0; bottom: 0; 
 }
