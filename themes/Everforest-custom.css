@@ -51,7 +51,7 @@ body {
     --bg5-dark:       #625a52;  /* Separator lines */
     --bg_visual:      #503946;
     --bg_red:         #4e3e43;
-    --bg_green:       #404d44;
+    --bg_green:       #404d44;  /* Background highlighted text */
     --bg_blue:        #394f5a;
     --bg_yellow:      #4a4940;
     --shadow:         #00000070;
