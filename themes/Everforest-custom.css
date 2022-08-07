@@ -58,7 +58,7 @@ body {
 
     --fg-dark:        #d6d4ce;  /* Main white text */
     --grey0-dark:     #7f897d;
-    --grey1-dark:     #859289;
+    --grey1-dark:     #928c85;  /* Left panel and completed text of check marks*/
     --grey2-dark:     #9aa79d;
 
     --faded-red:     #e67e80;   /* Dark orange title */
