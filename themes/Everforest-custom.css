@@ -592,7 +592,6 @@ input.task-list-item-checkbox:checked
 .cm-hmd-list-indent .cm-tab::before, ul ul::before {
  content:'';
  border-left: 1px solid var(--dim-blue1);
- margin-left: -4px;
  position: absolute;
 }
 .cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px; 
